@@ -9,6 +9,7 @@
 	"lookback": "5m",
 	"bufferSize": 10,
 	"source": "docker-monitor",
+	"skipList": [],
 	"conditions": [],
 	"rules": [
 		{
