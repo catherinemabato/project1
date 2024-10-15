@@ -9,6 +9,7 @@
 	"lookback": "5m",
 	"bufferSize": 10,
 	"source": "kernel-monitor",
+	"skipList": [ " audit:", " audit[" ],
 	"conditions": [
 		{
 			"type": "KernelDeadlock",
